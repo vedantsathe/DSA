@@ -80,6 +80,8 @@ struct TreeNode *deleteNode(struct TreeNode *root, char name[])
     }
     else
     {
+
+        
         if (root->left == NULL)
         {
             struct TreeNode *temp = root->right;
